@@ -1,0 +1,25 @@
+@import "header";
+@import "./body_slide";
+@import "./body_top_360";
+@import "./body_top_catlog";
+@import "./body_top_danhgia";
+@import "./body_top_gioithieu";
+@import "./body_top_hinhanh";
+@import "./body_top_thongsoxe";
+body {
+  font-family: $font-web;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-fluid {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+$font-web: "Chakra Petch", sans-serif;
+.container-body {
+  display: block;
+  padding-top: 40px;
+}
