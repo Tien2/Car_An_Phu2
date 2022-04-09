@@ -1,0 +1,68 @@
+.body-top-gioithieu {
+  display: flex;
+  justify-content: center;
+}
+.gioithieu {
+  position: relative;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  max-width: 900px;
+}
+.gt-left {
+  padding-left: 60px;
+  margin-bottom: 100px;
+}
+.gt-right {
+  margin-bottom: 100px;
+}
+.gt-img-responsive {
+  margin-top: 130px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin-left: 20px;
+}
+.gt-text {
+  margin-top: 100px;
+  font-weight: 900;
+  .gt-carname {
+    font-size: 34px;
+    text-transform: uppercase;
+  }
+  .gt-slogan {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .gt-summary {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+}
+.item-productprice {
+  margin-top: 20px;
+  .btn {
+    border-radius: 0px;
+    font-size: 18px;
+  }
+  .btn-detail-product {
+    background-color: #3c599b;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .btn-detail-product:hover {
+    background-color: orange;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .gt-img-responsive {
+    margin-top: 130px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin-left: 20px;
+  }
+}

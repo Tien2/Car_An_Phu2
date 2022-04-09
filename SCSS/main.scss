@@ -1,12 +1,19 @@
 @import "header";
 @import "./body_slide";
 @import "./body_top_360";
-@import "./body_top_catlog";
+@import "./body_top_catalog";
 @import "./body_top_danhgia";
 @import "./body_top_gioithieu";
 @import "./body_top_hinhanh";
 @import "./body_top_thongsoxe";
+@import "./body_top_tabs";
+@import "./background_body_top";
 $font-web: "Chakra Petch", sans-serif;
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 .container-body {
   display: block;
   padding-top: 40px;
@@ -17,6 +24,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-repeat: no-repeat;
 }
 .container-fluid {
   background-color: white;

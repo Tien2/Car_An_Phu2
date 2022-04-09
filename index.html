@@ -41,13 +41,1003 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="container_header"></div>
+      <div class="container_header">
+        <!-- Chỗ này viết header -->
+      </div>
       <div class="container-body">
-        <div class="container-body-top">
-          // chỗ này viết đoạn tabs header
-          <div class="body-top-gioithieu"></div>
+        <div
+          class="container-body-tabs pace-done"
+          style="
+            background-image: url(./img/Background_img/grand_i10_bg.jpg);
+            height: 500px;
+            width: 100%;
+          "
+        >
+          <!-- Chỗ này xây background cho body-top -->
+          <div class="pace pace-inactive">
+            <div
+              class="pace-progress"
+              data-progress-text="100%"
+              data-progress="99"
+              style="width: 100%"
+            >
+              <div class="pace-progress-inner"></div>
+            </div>
+            <div class="pace-activity"></div>
+          </div>
+          <div class="objects_box" style="overflow: hidden">
+            <div class="objects" style="width: 1920px">
+              <img
+                src="./img/Background_img/ba_bodyBG_1.png"
+                id="object1"
+                alt=""
+                style="position: absolute; left: -200px; top: 0"
+              />
+              <br />
+              <img
+                src="./img/Background_img/ba_bodyBG_2.png"
+                id="object1"
+                alt=""
+                style="position: absolute; left: -200px; top: 0"
+              />
+              <br />
+              <img
+                src="./img/Background_img/ba_bodyBG_3.png"
+                id="object1"
+                alt=""
+                style="position: absolute; left: -200px; top: 0"
+              />
+              <br />
+              <img
+                src="./img/Background_img/ba_bodyBG_4.png"
+                id="object1"
+                alt=""
+                style="position: absolute; left: -200px; top: 0"
+              />
+              <br />
+              <img
+                src="./img/Background_img/ba_bodyBG_5.png"
+                id="object1"
+                alt=""
+                style="position: absolute; left: -200px; top: 0"
+              />
+              <br />
+            </div>
+          </div>
+          <!-- chỗ này viết đoạn tabs header -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="gioithieu">
+              <div class="body-top-gioithieu">
+                <div class="row container gioithieu">
+                  <div class="col-12 col-md-5 gt-left">
+                    <div class="gt-text">
+                      <div class="gt-carname">Grand i10</div>
+                      <div class="gt-slogan">Nhấn nút khởi động cuộc sống mới</div>
+                      <div class="gt-summary">
+                          - Thiết kế cá tính, thời trang </br>
+                          - Kết nối không giới hạn </br>
+                          - Bền bỉ, mạnh mẽ và an toàn </br>
+                          - Bền bỉ, mạnh mẽ tinh tế </br>
+                      </div>
+                      <div class="item-productprice">
+                        <a href="" class="btn btn-detail-product">
+                          Dự toán chi phí
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-7 gt-right">
+                    <img class="gt-img-responsive" src="./img/GRAND-I10.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="hinhanh">
+              <div class="body-top-hinhanh">
+                <div class="hinhanh container">
+                  <ul class="nav nav-tabs hinhanh-tongquan">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#tongquan" data-bs-toggle="tab">               
+                          <p>Tổng Quan</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#noithat" data-bs-toggle="tab">                
+                          <p>Nội Thất</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#ngoaithat" data-bs-toggle="tab">
+                          <p>Ngoại Thất</p>
+                        </a>
+                      </li>
+                  </ul>
+                  <div class="tab-content">
+                      <div class="tab-pane active" id="tongquan">
+                        <ul class=" row nav nav-tabs body-hinhanh" >
+                          <li class="col-6 col-lg-3 body-tongquan" >
+                            <img src="./img/hinhanh_tab/gallery_sum01.png" alt="">
+                          </li>
+                          <li class="col-6 col-lg-3 body-tongquan" >
+                            <img src="./img/hinhanh_tab/gallery_sum01.png" alt="">
+                          </li>                     
+                          <p>1 of 3</p>
+                        </ul>
+                      </div>
+                      <div class="tab-pane " id="noithat">
+                        <ul class="row nav nav-tabs body-hinhanh" >
+                          <li class="col-6 col-lg-3 body-noithat" >
+                            <img src="./img/hinhanh_tab/gallery_sum01.png" alt="">
+                          </li>
+                          <li class="col-6 col-lg-3 body-noithat" >
+                            <img src="./img/hinhanh_tab/gallery_sum01.png" alt="">
+                          </li>
+                          <li class="col-6 col-lg-3 body-noithat" >
+                            <img src="./img/hinhanh_tab/gallery_sum01.png" alt="">
+                          </li>
+                          <li class="col-6 col-lg-3 body-noithat" >
+                            <img src="./img/hinhanh_tab/gallery_sum01.png" alt="">
+                          </li>
+                          <p>2 of 3</p>
+                        </ul>
+                      </div>
+                      <div class="tab-pane" id="ngoaithat">
+                        <ul class=" row nav nav-tabs body-hinhanh" >
+                          <li class="col-6 col-lg-3 body-ngoaithat" >
+                            <img src="./img/hinhanh_tab/gallery_sum01.png" alt="">
+                          </li>
+                          <li class="col-6 col-lg-3 body-ngoaithat" >
+                            <img src="./img/hinhanh_tab/gallery_sum01.png" alt="">
+                          </li>
+                          <li class="col-6 col-lg-3 body-ngoaithat" >
+                            <img src="./img/hinhanh_tab/gallery_sum01.png" alt="">
+                          </li>
+                          <li class="col-6 col-lg-3 body-ngoaithat" >
+                            <img src="./img/hinhanh_tab/gallery_sum01.png" alt="">
+                          </li>
+                          <li class="col-6 col-lg-3 body-ngoaithat" >
+                            <img src="./img/hinhanh_tab/gallery_sum01.png" alt="">
+                          </li>
+                          <li class="col-6 col-lg-3 body-ngoaithat" >
+                            <img src="./img/hinhanh_tab/gallery_sum01.png" alt="">
+                          </li>   
+                          <p>3 of 3</p>                  
+                        </ul>
+                      </div>                          
+                  </div>
+                </div>
+              </div>         
+            </div>
+            <div class="tab-pane" id="camnhan360">
+              <div class="panorama_360">
+                <div class="text-360">
+                </div>
+                <div class="body-top-360">
+                  <div id="product_viewer"></div>
+                  <script src="./js/product-viewer.js"></script>
+                  <script>
+                    var productViewer = new ProductViewer({
+                      element: document.getElementById("product_viewer"),
+                      imagePath: "./img/images",
+                      filePrefix: "img",
+                      fileExtension: ".png",
+                    });
+                    ProductViewer.once("loaded", function () {
+                      ProductViewer.animate360();
+                    });
+                  </script>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="danhgiaxe">
+              <div class="body-top-danhgia">
+                <div class="body-danh-gia-1">
+                    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+                    <link
+                      rel="stylesheet"
+                      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+                    />
+                    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+                    <div class="imglist">
+                      <div class="modal_danhgia">
+                        <div class="danhgia-item">
+                          <a
+                            class="images-zoom"
+                            href="./img/danhgia_tab/Screenshot 2022-04-08 142012.png"
+                            data-fancybox="images"
+                          >
+                            <img class="img_modal" src="./img/danhgia_tab/new-county.png">
+                          </a>
+                        </div>
+                        <div class="danhgia-item">
+                          <a
+                            class="images-zoom"
+                            href="./img/danhgia_tab/Screenshot 2022-04-08 142532.png"
+                            data-fancybox="images"
+                          >
+                            <img class="img_modal" src="./img/danhgia_tab/new-county.png">
+                          </a>
+                        </div>
+                        <div class="danhgia-item">
+                          <a
+                            class="images-zoom"
+                            href="./img/danhgia_tab/Screenshot 2022-04-08 142543.png"
+                            data-fancybox="images"
+                          >
+                            <img class="img_modal" src="./img/danhgia_tab/new-county.png">
+                          </a>
+                        </div>
+                      </div>                    
+                    </div>
+                    <script>
+                      $('[data-fancybox="images"]').fancybox({
+                        baseClass: "myFancyBox",
+                        thumbs: {
+                          autoStart: true,
+                          axis: "x",
+                        },
+                      });
+                    </script>
+
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="thongsoxe">
+              <div class="body-top-thongsoxe">
+                <div class="ex1">
+
+                  <table>
+                    <colgroup>
+                      <col width="15%"></col>
+                      <col width="40%"></col>
+                      <col width="15%"></col>
+                      <col width="15%"></col>
+                      <col width="15%"></col>
+                    </colgroup>
+                    <thead>
+                      <tr>
+                          <th colspan="2" rowspan="2">
+                              GRAND i10
+                          </th>
+                          <th class="mauxe" colspan="3">
+                              <strong>Mẫu xe</strong>
+                          </th>
+                      </tr>
+                      <tr>
+                          <th class="thietbi">
+                              <strong>1.0 M/T</strong>
+                          </th>
+                          <th class="thietbi">
+                              <strong>1.0 A/T</strong>
+                          </th>
+                          <th class="thietbi">
+                              <strong>1.25 AT</strong>
+                          </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                          <th class="type" style="text-align: center;" rowspan="3">
+                              K&iacute;ch thước chung
+                          </th>
+                          <th style="text-align: center;">
+                              K&iacute;ch thước tổng thể (DxRxC) - (mm)
+                          </th>
+                          <td colspan="3">
+                              3.765 x 1.660 x 1.520
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Chiều d&agrave;i cơ sở (mm)
+                          </th>
+                          <td colspan="3">
+                              2.425
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Khoảng s&aacute;ng gầm xe (mm)
+                          </th>
+                          <td colspan="3">
+                              167
+                          </td>
+                      </tr>
+                      <tr>
+                          <th class="type" style="text-align: center;" rowspan="7">
+                              Động cơ hộp số
+                          </th>
+                          <th style="text-align: center;">
+                              Động cơ
+                          </th>
+                          <!-- Engine Capacity + Injection type + Cam type (Theta Ⅱ 2.0 MPI DOHC)-->
+                          <!-- Engine Capacity + Fuel System-->
+                          <td colspan="2">
+                              Kappa 1.0L
+                          </td>
+                          <td>
+                              Kappa 1.2L
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Dung t&iacute;ch xi lanh (cc)
+                          </th>
+                          <td colspan="2">
+                              998
+                          </td>
+                          <td>
+                              1.248
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Nhi&ecirc;n liệu
+                          </th>
+                          <td colspan="3">
+                              Xăng
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              C&ocirc;ng suất động cơ (ps/rpm)
+                          </th>
+                          <td colspan="2">
+                              66 / 5.500
+                          </td>
+                          <td>
+                              87 / 6.000
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              M&ocirc; men xoắn lớn nhất (kgm/rpm)
+                          </th>
+                          <td colspan="2">
+                              9.6 / 3.500
+                          </td>
+                          <td>
+                              12.2 / 4.000
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Hộp số
+                          </th>
+                          <td>
+                              Số s&agrave;n 5 cấp
+                          </td>
+                          <td colspan="2">
+                              Tự động 4 cấp
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Truyền động
+                          </th>
+                          <td colspan="3">
+                              Dẫn động 2 b&aacute;nh (2WD)
+                          </td>
+                      </tr>
+                      <tr>
+                          <th class="type" style="text-align: center;" rowspan="5">
+                              Hệ thống phanh, treo, l&aacute;i
+                          </th>
+                          <th style="text-align: center;">
+                              Phanh trước/sau
+                          </th>
+                          <!-- Engine Capacity + Injection type + Cam type (Theta Ⅱ 2.0 MPI DOHC)-->
+                          <!-- Engine Capacity + Fuel System-->
+                          <td colspan="3">
+                              Phanh đĩa/phanh tang trống
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Hệ thống treo trước
+                          </th>
+                          <td colspan="3">
+                              Độc lập kiểu Macpherson
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Hệ thống treo sau
+                          </th>
+                          <td colspan="3">
+                              Thanh xoắn
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Hệ thống trợ lực l&aacute;i
+                          </th>
+                          <td colspan="3">
+                              Điện
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              V&ocirc; lăng điều chỉnh cơ
+                          </th>
+                          <td colspan="3">
+                              Gật g&ugrave;
+                          </td>
+                      </tr>
+                      <tr>
+                          <th class="type" style="text-align: center;" rowspan="3">
+                              An to&agrave;n
+                          </th>
+                          <th style="text-align: center;">
+                              Cảm biến l&ugrave;i
+                          </th>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Hệ thống t&uacute;i kh&iacute;
+                          </th>
+                          <td>
+                              B&ecirc;n l&aacute;i
+                          </td>
+                          <td>
+                              B&ecirc;n l&aacute;i
+                          </td>
+                          <td>
+                              B&ecirc;n l&aacute;i + B&ecirc;n phụ
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Hệ thống chống b&oacute; cứng phanh ABS
+                          </th>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th class="type" style="text-align: center;" rowspan="5">
+                              Hệ thống l&aacute;i
+                          </th>
+                          <th style="text-align: center;">
+                              M&acirc;m đ&uacute;c hợp kim
+                          </th>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Cỡ lốp
+                          </th>
+                          <td>
+                              165 / 65 R14
+                          </td>
+                          <td>
+                              165 / 65 R14
+                          </td>
+                          <td>
+                              165 / 65 R14
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Lốp dự ph&ograve;ng c&ugrave;ng cỡ
+                          </th>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              V&ocirc; lăng điều chỉnh cơ
+                          </th>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Trợ lực l&aacute;i điện
+                          </th>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th class="type" style="text-align: center;" rowspan="4">
+                              Ngoại thất
+                          </th>
+                          <th style="text-align: center;">
+                              Đ&egrave;n sương m&ugrave; trước
+                          </th>
+                          <!-- Engine Capacity + Injection type + Cam type (Theta Ⅱ 2.0 MPI DOHC)-->
+                          <!-- Engine Capacity + Fuel System-->
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Xi nhan trước gương chiếu hậu
+                          </th>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Ốp th&acirc;n xe
+                          </th>
+                          <td>
+                              &nbsp;
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Lưới tản nhiệt mạ chrome
+                          </th>
+                          <td>
+                              &nbsp;
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th class="type" style="text-align: center;" rowspan="13">
+                              Nội thất &amp; Tiện nghi
+                          </th>
+                          <th style="text-align: center;">
+                              V&ocirc; lăng, tay nắm v&agrave; cần số bọc da
+                          </th>
+                          <!-- Engine Capacity + Injection type + Cam type (Theta Ⅱ 2.0 MPI DOHC)-->
+                          <!-- Engine Capacity + Fuel System-->
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Ghế da
+                          </th>
+                          <td>
+                              &nbsp;
+                          </td>
+                          <td>
+                              &nbsp;
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              AM/FM + CD + MP3 + Cổng kết nối AUX/USB
+                          </th>
+                          <td>
+                              &nbsp;
+                          </td>
+                          <td>
+                              &nbsp;
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th class="style1" style="text-align: center;">
+                              AM/FM + MP3 + Cổng kết nối AUX/USB
+                          </th>
+                          <td class="style1">
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td class="style1">
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td class="style1">
+                              &nbsp;
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Bluetooth
+                          </th>
+                          <td>
+                              &nbsp;
+                          </td>
+                          <td>
+                              &nbsp;
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Điều khiển &acirc;m thanh tr&ecirc;n v&ocirc; lăng
+                          </th>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Gương chiếu hậu chỉnh điện
+                          </th>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Gương chiếu hậu gập điện
+                          </th>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Cửa sổ điều khiển điện
+                          </th>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Hệ thống kh&oacute;a cửa trung t&acirc;m
+                          </th>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Ch&igrave;a kh&oacute;a th&ocirc;ng minh + khởi động n&uacute;t bấm
+                          </th>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Chống sao ch&eacute;p ch&igrave;a kh&oacute;a (Immobilizer)
+                          </th>
+                          <td>
+                              &nbsp;
+                          </td>
+                          <td>
+                              &nbsp;
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th style="text-align: center;">
+                              Điều h&ograve;a nhiệt độ
+                          </th>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                          <td>
+                              <span style="color: #666666; font-family: Arial, AppleGothic, sans-serif, Helvetica;
+                                  font-size: xx-large; line-height: 20px; text-align: center;">&bull;</span>
+                          </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>            
+              </div>
+            </div>
+            <div class="tab-pane" id="taicatalog">
+              <div class="body-top-catalog">
+                <a href="./img/GRAND-I10.png">Tai xuong o day</a>
+              </div>
+            </div>
+          </div>
+          <div class="row khung_tabs_body">
+              <div class="col-12 nav nav-tabs">
+                <ul class="row nav-tabs-top">
+                  <li class="col-2 col-sm-2 nav-item">
+                    <a class="nav-link active" href="#gioithieu" data-bs-toggle="tab">
+                      <div>
+                        <span>
+                          <img src="./img/icon_tab_header/gioi_thieu.png" alt="" />
+                          <img
+                            style="display: none"
+                            src="./img/icon_tab_header/gioi_thieu_pro.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Giới Thiệu</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-2 col-sm-2 nav-item">
+                    <a class="nav-link" href="#camnhan360" data-bs-toggle="tab"
+                      ><div>
+                        <span>
+                          <img src="./img/icon_tab_header/Cam_nhan_360.png" alt="" />
+                          <img
+                            style="display: none"
+                            src="./img/icon_tab_header/Cam_nhan_360_pro.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Cảm Nhận 360</p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="col-2 col-sm-2 nav-item">
+                    <a class="nav-link" href="#hinhanh" data-bs-toggle="tab"
+                      ><div>
+                        <span>
+                          <img src="./img/icon_tab_header/hinh_anh.png" alt="" />
+                          <img
+                            style="display: none"
+                            src="./img/icon_tab_header/hinh_anh_pro.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Hình Ảnh</p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="col-2 col-sm-2 nav-item">
+                    <a class="nav-link" href="#danhgiaxe" data-bs-toggle="tab"
+                      ><div>
+                        <span>
+                          <img src="./img/icon_tab_header/danh_gia_xe.png" alt="" />
+                          <img
+                            style="display: none"
+                            src="./img/icon_tab_header/danh_gia_xe_pro.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Đánh Giá Xe</p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="col-2 col-sm-2 nav-item">
+                    <a class="nav-link" href="#thongsoxe" data-bs-toggle="tab"
+                      ><div>
+                        <span>
+                          <img src="./img/icon_tab_header/thong_so_xe.png" alt="" />
+                          <img
+                            style="display: none"
+                            src="./img/icon_tab_header/thong_so_xe_pro.png"
+                            alt=""
+                          />
+                        </span>
+                        <p>Thông Số Xe</p>
+                      </div></a
+                    >
+                  </li>
+                  <li class="col-2 col-sm-2 nav-item">
+                    <a class="nav-link" href="#taicatalog" data-bs-toggle="tab"
+                      ><div>
+                        <span>
+                          <img src="./img/icon_tab_header/catalog.png" alt="" />
+                        </span>
+                        <p>Tải Catalog</p>
+                      </div></a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-2 nav nav-tabs"><img src="./img/GRAND-I10_logo.png" alt=""></div>
+              <div class="col-12 nav nav-tabs">
+                <ul class="nav-tabs-bot">
+                  <li class="col-2 col-sm-2 nav-item">
+                    <a class="nav-link" href="#noibat" data-bs-toggle="tab"
+                      ><div> 
+                        <p>Nổi Bật</p>
+                      </div></a>
+                  </li>
+                  <li class="col-2 col-sm-2 nav-item">
+                    <a class="nav-link" href="#ngoaithat" data-bs-toggle="tab"
+                      ><div>
+                        <p>Ngoại Thất</p>
+                      </div></a>
+                  </li>
+                  <li class="col-2 col-sm-2 nav-item">
+                    <a class="nav-link" href="#noithat" data-bs-toggle="tab"
+                      ><div>
+                        <p>Nội Thất</p>
+                      </div></a>
+                  </li>
+                  <li class="col-2 col-sm-2 nav-item">
+                    <a class="nav-link" href="#vanhhanh" data-bs-toggle="tab"
+                      ><div>
+                        <p>Vận Hành</p>
+                      </div></a>
+                  </li>
+                  <li class="col-2 col-sm-2 nav-item">
+                    <a class="nav-link" href="#antoan" data-bs-toggle="tab"
+                      ><div>
+                        <p>An Toàn</p>
+                      </div></a>
+                  </li>
+                  <li class="col-2 col-sm-2 nav-item">
+                    <a class="nav-link" href="#tiennghi" data-bs-toggle="tab"
+                      ><div>                   
+                        <p>Tiện Nghi</p>
+                      </div></a>
+                  </li>
+                </ul>
+              </div>
+          </div>
         </div>
-        <div class="container-body-slide">// viết đoạn code slide ở đây</div>
+        <div class="container-body-slide">
+          <!-- viết đoạn code slide ở đây -->
+        </div>
+      </div>
+      <div class="container_footer">
+        <!-- Chỗ này viết footer -->
       </div>
     </div>
   </body>

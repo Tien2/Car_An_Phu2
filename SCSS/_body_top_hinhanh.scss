@@ -1,0 +1,31 @@
+.body-top-hinhanh {
+  position: relative;
+  //   max-height: 500px;
+}
+.hinhanh {
+  max-width: 1000px;
+  height: 500px;
+}
+.nav-tabs .nav-link.active {
+  :hover {
+    font-weight: 900;
+    color: orange;
+  }
+  color: #0000ff;
+  background-color: transparent;
+  border-color: transparent;
+}
+.hinhanh-tongquan .nav-link {
+  p {
+    font-size: 17px;
+    font-weight: 900;
+  }
+}
+.hinhanh-tongquan {
+  padding-top: 100px;
+}
+.body-hinhanh p {
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
