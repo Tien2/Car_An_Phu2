@@ -1,3 +1,377 @@
+.hightlight-header {
+  text-align: center;
+}
+
+.header-text {
+  padding: 8px 18px;
+  font-size: 32px;
+  color: #0E528B;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 3px solid #0E528B;
+  font-family: ChakraPetchMedium;
+}
+
+.descript-text {
+  font-size: 42px;
+  color: #222;
+  margin: 50px 0 32px 0;
+  font-weight: bold;
+  font-family: ModernHBold;
+}
+
+.detail-text {
+  color: #666;
+  font-size: 17px;
+  font-family: ModernHEcoLight;
+  font-weight: bold;
+}
+
+.product-head-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+.product-head-text p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.7;
+  padding: 0 11px;
+}
+
+.descript-product {
+  text-align: center;
+  align-items: center;
+  flex-direction: none;
+  padding-top: 80px;
+}
+.descript-product span {
+  margin-bottom: 24px !important;
+}
+.descript-product p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.7;
+  padding: 0 11px;
+}
+
+img {
+  width: 100%;
+}
+
+.img-highlight {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.descript-box {
+  position: relative;
+}
+.descript-box span {
+  position: absolute;
+  font-size: 24px;
+  color: #fff;
+  top: 45%;
+  transform: translareY(-50%);
+  max-width: 540px;
+}
+
+.descript-text1 {
+  right: 32px;
+}
+
+.descript-text2 {
+  left: 45px;
+}
+
+.double-box {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 24px;
+  font-family: ModernHEcoLight;
+}
+
+.descript-header {
+  font-size: 30px;
+  margin-bottom: 24px !important;
+}
+
+.descript-text-box p {
+  color: #666;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#exterior {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.exterior-bg {
+  margin-top: 32px;
+  position: relative;
+  width: 100%;
+  height: 520px;
+}
+
+.header-slogan {
+  font-size: 26px;
+  margin-top: 60px;
+  font-family: ModernHBold;
+}
+
+.detail-text {
+  color: #666;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.product-detail-item {
+  position: relative;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.product-exterior-descript {
+  position: absolute;
+  top: 16px;
+  left: 32px;
+  right: 16px;
+  max-width: 100%;
+  text-align: left;
+}
+.product-exterior-descript p {
+  color: #666;
+  font-family: ModernHBold;
+}
+
+.product-exterior-descript-header {
+  margin-bottom: 18px;
+  font-size: 18px;
+  color: #fff;
+  font-family: ModernHBold;
+}
+
+.detail-product {
+  text-align: left;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.detail-box-text span {
+  display: inline-block;
+  padding: 10px 0;
+  color: #000;
+  font-family: ModernHBold;
+  font-weight: bold;
+  font-size: 16px;
+}
+.detail-box-text p {
+  color: #656565;
+  font-weight: 700;
+  font-family: ModernHEcoLight;
+  font-size: 16px;
+}
+
+.furniture-bg {
+  position: relative;
+  width: 100%;
+  height: 520px;
+  background: url(http://hyundaibacninh.vn/tempfiles/uploads/ChiTietXe/Grandi10-2017/noithat/noi11.png) no-repeat fixed 50% 50% #fff;
+}
+
+.slogan-comfort {
+  font-size: 28px;
+  color: #337ab7;
+  font-family: ModernHBold;
+}
+
+.operation-bg {
+  position: relative;
+  width: 100%;
+  height: 520px;
+  background: url(http://hyundaibacninh.vn/tempfiles/uploads/ChiTietXe/Grandi10-2017/vanhanh/v1.jpg) no-repeat fixed 50% 50% #fff;
+}
+
+.engine-descript {
+  display: flex;
+  padding-left: 85px;
+}
+
+.engine-descript-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.engine-descript .engine-descript-left .engine-descript-left-above {
+  margin-bottom: 16px;
+  text-align: left;
+  font-family: var(--second-font);
+  font-weight: 700;
+  max-width: 373px;
+}
+.engine-descript .engine-descript-left .engine-descript-left-above span {
+  font-size: 22px;
+  color: #222222;
+  line-height: 1.6;
+}
+.engine-descript .engine-descript-left .engine-descript-left-above p {
+  color: #333333;
+  font-size: 14px;
+}
+
+.engine-descript .engine-descript-left .engine-descript-left-bellow {
+  min-height: 180px;
+  text-align: left;
+  background: url(https://buithimyvan.github.io/Giaodien_HuyndaiGrand_i10-Van/images/bg_performance_max_title2.png) no-repeat;
+}
+.engine-descript .engine-descript-left .engine-descript-left-bellow div {
+  min-height: 78px;
+}
+
+.max-power {
+  display: flex;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #ccc;
+}
+
+.max-torque {
+  display: flex;
+}
+
+.max-torque .max-torque-text {
+  color: #3f86c6;
+  padding-top: 74px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 46px;
+  padding-right: 10px;
+  border-right: 1px dotted #ccc;
+}
+
+.max-number {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.number {
+  font-size: 32px;
+  color: #666666;
+  font-weight: 700;
+  font-family: ChakraPetchRegular;
+}
+
+.max-power-text .max-torque .max-torque-text {
+  font-size: 14px;
+  font-family: var(--second-font);
+  font-weight: bold;
+  padding-top: 46px;
+  padding-right: 10px;
+  border-right: 1px dotted #ccc;
+}
+
+.engine-descript-left-above {
+  margin-bottom: 16px;
+  text-align: left;
+  font-weight: 700;
+  max-width: 373px;
+}
+.engine-descript-left-above span {
+  font-size: 22px;
+  color: #222222;
+  line-height: 1.6;
+}
+.engine-descript-left-above p {
+  color: #333333;
+  font-size: 14px;
+}
+
+.max-power-text {
+  color: #f58d0a;
+}
+
+.max-power-text {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 46px;
+  padding-right: 10px;
+  border-right: 1px dotted #ccc;
+}
+
+.max-number {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.number {
+  font-size: 32px;
+  color: #666666;
+  font-weight: 700;
+  font-family: var(--third-font);
+}
+
+.unit {
+  color: #666666;
+  font-weight: 700;
+}
+
+.safe-bg {
+  position: relative;
+  width: 100%;
+  height: 520px;
+  background: url(http://webdemo.netdeal.vn:12071/Uploads/SanPham/i102017/antoan/an1.jpg) no-repeat fixed 50% 50% #fff;
+}
+
+.air-bag {
+  min-height: 516px;
+  background-image: url(http://webdemo.netdeal.vn:12071/Uploads/SanPham/i102017/antoan/an2.jpg);
+  margin-bottom: 111px;
+}
+
+.safe-info-box {
+  max-width: 450px;
+  padding: 32px 16px 0 32px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.safe-info-name {
+  display: block;
+  margin: 0 0 17px 0;
+  font-size: 17px;
+  font-family: ModernHBold;
+  line-height: 24px;
+  color: #000;
+}
+
+.safe-info-text {
+  font-size: 14px;
+  color: #656565;
+  font-weight: bold;
+}
+
+.hac {
+  min-height: 716px;
+  width: 100%;
+  background-image: url(http://webdemo.netdeal.vn:12071/Uploads/SanPham/i102017/antoan/an3.jpg);
+  padding: 56px 0 0 127px;
+}
+
+.convenient-bg {
+  position: relative;
+  width: 100%;
+  height: 520px;
+  background: url(http://hyundaibacninh.vn/tempfiles/uploads/ChiTietXe/Grandi10-2017/tiennghi/tien1.jpg) no-repeat fixed 50% 50% #fff;
+}
+
 .panorama_360 {
   position: relative;
   max-height: 500px;
@@ -267,6 +641,22 @@ div.ex1 {
   animation: pace-spinner 400ms linear infinite;
 }
 
+@font-face {
+  font-family: ModernHEcoLight;
+  src: url("/font/ChakraPetch-Regular.ttf");
+}
+@font-face {
+  font-family: ModernHBold;
+  src: url("/font/ChakraPetch-Medium.ttf");
+}
+@font-face {
+  font-family: ChakraPetchRegular;
+  src: url("/font/ChakraPetch-Regular.ttf");
+}
+@font-face {
+  font-family: ChakraPetchMedium;
+  src: url("/font/ChakraPetch-Medium.ttf");
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -279,10 +669,11 @@ div.ex1 {
 }
 
 body {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: ModernHEcoLight;
   width: 100%;
   margin: 0;
   padding: 0;
+  text-align: center;
   box-sizing: border-box;
   background-repeat: no-repeat;
 }
