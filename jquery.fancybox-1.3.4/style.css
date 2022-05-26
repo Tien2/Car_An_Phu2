@@ -1,0 +1,44 @@
+hr {
+  border: none;
+  height: 1px;
+  line-height: 1px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+p {
+  display: flex;
+  margin: 0;
+  padding: 7px 0;
+}
+a {
+  outline: none;
+}
+.row a {
+  margin: unset;
+  padding: 5px;
+}
+#content .row a img {
+  vertical-align: center;
+  border: 2px solid #fff;
+}
+
+a img.last {
+  margin-right: 0;
+}
+
+ul {
+  margin-bottom: 24px;
+  padding-left: 30px;
+}
+#fancybox-title-over {
+  background-image: unset;
+}
+#fancybox-title-over span {
+  color: gray;
+}
+#fancybox-close {
+  right: -35px;
+  top: -13px;
+  background: transparent url(./fancybox/fancy_close.png);
+}

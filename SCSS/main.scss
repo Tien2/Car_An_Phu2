@@ -8,25 +8,29 @@
 @import "./body_top_thongsoxe";
 @import "./body_top_tabs";
 @import "./background_body_top";
-
+@import "./fixed";
+@import "./footer-top";
+@import "./carousel";
+@import "./fancy_box";
+$font-web: "Chakra Petch", sans-serif;
 @font-face {
   font-family: ModernHEcoLight;
-  src: url('/font/ChakraPetch-Regular.ttf');
+  src: url("/font/ChakraPetch-Regular.ttf");
 }
 
 @font-face {
   font-family: ModernHBold;
-  src: url('/font/ChakraPetch-Medium.ttf');
+  src: url("/font/ChakraPetch-Medium.ttf");
 }
 
 @font-face {
   font-family: ChakraPetchRegular;
-  src: url('/font/ChakraPetch-Regular.ttf');
+  src: url("/font/ChakraPetch-Regular.ttf");
 }
 
 @font-face {
   font-family: ChakraPetchMedium;
-  src: url('/font/ChakraPetch-Medium.ttf');
+  src: url("/font/ChakraPetch-Medium.ttf");
 }
 * {
   -webkit-box-sizing: border-box;
@@ -35,19 +39,23 @@
 }
 .container-body {
   display: block;
-  padding-top: 40px;
-}
-body {
-  font-family: ModernHEcoLight;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  box-sizing: border-box;
-  background-repeat: no-repeat;
 }
 .container-fluid {
   background-color: white;
   padding: 0;
   margin: 0;
+}
+* {
+  font-family: $font-web;
+  font-weight: bold;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-repeat: no-repeat;
 }

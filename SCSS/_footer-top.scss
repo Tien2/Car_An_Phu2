@@ -1,0 +1,88 @@
+.textwidget {
+  font-weight: normal;
+  text-align: justify;
+  margin-top: 25px;
+  color: #fff;
+  line-height: 20px;
+  text-align: left;
+}
+.footer-top {
+  position: relative;
+  z-index: 1;
+  margin-top: 0px;
+  background-color: #f7f7f7;
+  padding: 45px 0;
+  font-size: 15px;
+  color: #222222;
+}
+.footer_top .container .row > div {
+  padding-bottom: 20px;
+}
+.col-md-3 .col-sm-6 .col-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.h5 {
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  line-height: 1.8;
+}
+.footer_headings {
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.top-line {
+  background: #fff;
+  height: 1px;
+  margin: 0;
+  margin-bottom: 25px;
+  text-align: left;
+}
+.footer-img ul li {
+  display: inline-block;
+  width: 32%;
+  padding: 5px !important;
+  position: relative;
+  margin-top: 0px !important;
+  margin-bottom: 5px !important;
+}
+.footer-col .col-xs-12:last-child {
+  border-bottom: none;
+  margin-bottom: 0px;
+}
+.col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+h2 {
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  line-height: 1.8;
+}
+.icon-footer {
+  padding-bottom: 20px;
+  p {
+    font-weight: bold;
+    text-align: left;
+    font-size: 15px;
+  }
+}
+.container-footer {
+  width: 90%;
+}
+.copy-right {
+  padding: 24px 0;
+  font-family: ModernHBold;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}

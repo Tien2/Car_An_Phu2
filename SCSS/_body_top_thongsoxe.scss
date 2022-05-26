@@ -1,13 +1,47 @@
-.body-top-thongsoxe {
-  position: relative;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  padding-top: 100px;
-}
-div.ex1 {
-  background-color: white;
-  width: 900px;
-  height: 300px;
+.carousel-item .param {
+  margin: 40px 0;
+  height: 312px;
+  background-color: #fff;
   overflow: scroll;
+  overflow-x: hidden;
+  font-family: var(--second-font);
+  font-size: 13px;
+}
+.text-align-center {
+  text-align: center;
+}
+.carousel-item .notice {
+  font-size: 12px;
+  font-weight: 700;
+  font-style: italic;
+}
+.mb16 {
+  margin-bottom: 16px;
+}
+.table-param tbody {
+  border-top: none !important;
+}
+.table-param tr {
+  border-bottom: 1px solid #d8d9d9 !important;
+}
+.table-param th {
+  display: table-cell;
+  vertical-align: middle;
+}
+.circle {
+  position: absolute;
+  background: #000;
+  border: 0.1875em solid #0f1c3f;
+  border-radius: 50%;
+  height: 6px;
+  width: 6px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.available {
+  position: relative;
+}
+.table-param .type {
+  background-color: rgb(231, 231, 230);
 }

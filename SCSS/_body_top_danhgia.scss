@@ -1,6 +1,5 @@
 .body-top-danhgia {
   position: relative;
-  height: 500px;
 }
 .imglist {
   display: flex;
@@ -9,4 +8,21 @@
 }
 .modal_danhgia {
   display: flex;
+}
+.item-danhgia {
+  padding: 10px 0px;
+  img {
+    width: 90px;
+  }
+  p {
+    font-weight: bold;
+    color: #0000ff;
+    font-size: 14px;
+    font-family: Georgia;
+  }
+}
+.ahaha .logo {
+  width: 90px;
+  height: 30px;
+  margin-right: 49px;
 }

@@ -1,31 +1,75 @@
-.body-top-hinhanh {
-  position: relative;
-  //   max-height: 500px;
+.picture_item {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
 }
-.hinhanh {
-  max-width: 1000px;
-  height: 500px;
-}
-.nav-tabs .nav-link.active {
-  :hover {
-    font-weight: 900;
-    color: orange;
-  }
-  color: #0000ff;
+.nav-pills .nav-item .nav-link {
+  padding: 0px 20px;
+  color: blue;
   background-color: transparent;
-  border-color: transparent;
 }
-.hinhanh-tongquan .nav-link {
-  p {
-    font-size: 17px;
-    font-weight: 900;
-  }
-}
-.hinhanh-tongquan {
-  padding-top: 100px;
-}
-.body-hinhanh p {
-  text-align: center;
-  font-size: 13px;
+.nav-pills .nav-item a {
+  font-size: 17px;
   font-weight: bold;
+}
+.nav-pills .nav-item .nav-link:hover {
+  color: orange;
+}
+.text_picture {
+  margin-top: 10px;
+  text-align: center;
+}
+.gallery-item {
+  background-color: #fff;
+  padding: 2px !important;
+  margin: 5px;
+}
+.gallery img {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 80%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+#gallery-modal .modal-img {
+  width: 100%;
+}
+.modal-dialog .modal-content {
+  padding: 1px !important;
+}
+.modal-body {
+  padding: 3px !important;
+}
+.modal-header {
+  border-bottom: unset;
+}
+.modal-content .close {
+  position: absolute;
+  top: -16px;
+  right: -13px;
+  padding: 4px;
+  font-size: 22px;
+  color: white;
+  border: 2px solid #fff;
+  background-color: #000;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+}
+@media only screen and (max-width: 376px) {
+  .picture_item {
+    padding: unset;
+    margin: 5px;
+  }
+  .gallery .image img {
+    width: 44% !important;
+  }
+  .floating-top {
+    width: 30px !important;
+    height: 30px !important;
+  }
 }
